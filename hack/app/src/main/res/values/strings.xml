@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AirAsia</string>
+    <string name="title_home">Welcome to AirAsia One Stop APP.</string>
+    <string name="home_second_line">One Way</string>
+    <string name="home_third_line">Multiple</string>
+    <string name="title_dashboard">in flight</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="home_button_add_fields">Add more destinations</string>
+    <string name="home_button_Plan">Plan</string>
+    <string name="assistance">Assistance</string>
+    <string name="change_channels">Change Channels</string>
+    <string name="Emergency">Emergency</string>
+    <string name="wifi_connect">wifi Connect</string>
+    <string name="buy_in_flight">Buy in flight catalogue</string>
+    <string name="destination_details">Detials about the destination</string>
+    <string name="date">Date</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+</resources>

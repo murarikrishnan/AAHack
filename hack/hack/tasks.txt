@@ -1,0 +1,6 @@
+1) Create a booking screen for round and multiple trips - in half an hour
+2) if not logged in prompt a login screen
+3) once logged in show success screen
+4) Prompt user for date and time of journey
+5) Once in plane display show another tab for in plane facilities
+6) once landed, feedback prompt and thank you screen
