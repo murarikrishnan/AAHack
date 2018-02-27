@@ -29,7 +29,7 @@ public class NetworkConstants {
     public static final String ERROR_MSG ="ERROR_MSG";
     public static final String KEY ="key";
     public static final String RETRY ="RETRY";
-    public static final String PLAN_URL ="PLAN";
+    public static final String PLAN_URL ="bins/iqfx9";
     public static final String SIGNUP_URL ="SIGNUP_URL";
     public static final String LOGIN_URL ="LOGIN_URL";
     public static final int SNACK_DISPLAY =5000;

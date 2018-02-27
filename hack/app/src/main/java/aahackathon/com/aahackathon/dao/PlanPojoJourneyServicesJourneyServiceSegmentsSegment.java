@@ -1,10 +1,17 @@
 package aahackathon.com.aahackathon.dao;
 
+import com.google.gson.annotations.SerializedName;
+
 public class PlanPojoJourneyServicesJourneyServiceSegmentsSegment {
+    @SerializedName("FlightDesignator")
     private PlanPojoJourneyServicesJourneyServiceSegmentsSegmentFlightDesignator FlightDesignator;
+    @SerializedName("DepartureTime")
     private String DepartureTime;
+    @SerializedName("ArrivalStation")
     private String ArrivalStation;
+    @SerializedName("DepartureStation")
     private String DepartureStation;
+    @SerializedName("ArrivalTime")
     private String ArrivalTime;
 
     public PlanPojoJourneyServicesJourneyServiceSegmentsSegmentFlightDesignator getFlightDesignator() {

@@ -1,9 +1,15 @@
 package aahackathon.com.aahackathon.dao;
 
+import com.google.gson.annotations.SerializedName;
+
 public class PlanPojoBookingContactsBookingContactName {
+    @SerializedName("FirstName")
     private String FirstName;
+    @SerializedName("Title")
     private String Title;
+    @SerializedName("LastName")
     private String LastName;
+    @SerializedName("MiddleName")
     private Object MiddleName;
 
     public String getFirstName() {

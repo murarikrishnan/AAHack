@@ -32,8 +32,7 @@ public class MainModel implements MainPresenter.Presenter {
  * the below code will be used if the webservice is from api, since the time is not enough will be just commenting
  * returning a success message
  */
-     /*   HashMap inputObj = new HashMap();
-        mRetrofit.create(NetworkWebService.class).getPlanDetails(inputObj).subscribeOn(Schedulers.io())
+        mRetrofit.create(NetworkWebService.class).getPlanDetails().subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .unsubscribeOn(Schedulers.io())
                 .subscribe(new Observer<PlanPojo>() {
@@ -51,9 +50,9 @@ public class MainModel implements MainPresenter.Presenter {
                     public void onNext(PlanPojo planPojo) {
                         System.out.print("OnNext");
                     }
-                });*/
+                });
 
-     mView.onFinish();
+//     mView.onFinish();
 
 
 

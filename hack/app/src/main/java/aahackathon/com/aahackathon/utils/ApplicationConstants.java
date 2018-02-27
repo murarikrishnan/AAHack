@@ -8,7 +8,7 @@ public class ApplicationConstants {
     public static String APP_NAME = "AirAsia hackathon";
     public static String PREF_NAME = "AAHack";
 
-    public static String INTERNAL_URL ="http://www.google.com";
+    public static String INTERNAL_URL ="https://api.myjson.com/";
 
 
     public static final String BUILDNUMBER= "V"+" 0.16"+".102";

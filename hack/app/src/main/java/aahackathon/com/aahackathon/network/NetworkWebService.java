@@ -7,6 +7,7 @@ import aahackathon.com.aahackathon.dao.PlanPojo;
 import aahackathon.com.aahackathon.dao.SignUpResponse;
 import aahackathon.com.aahackathon.utils.NetworkConstants;
 import retrofit2.http.Body;
+import retrofit2.http.GET;
 import retrofit2.http.Headers;
 import retrofit2.http.POST;
 import rx.Observable;
@@ -16,9 +17,8 @@ import rx.Observable;
  */
 
 public interface NetworkWebService {
-    @Headers("Cookie: ")
-    @POST(NetworkConstants.PLAN_URL)
-    Observable<PlanPojo> getPlanDetails(@Body HashMap jsonObject);
+    @GET(NetworkConstants.PLAN_URL)
+    Observable<PlanPojo> getPlanDetails();
 
     @Headers("Cookie: ")
     @POST(NetworkConstants.SIGNUP_URL)

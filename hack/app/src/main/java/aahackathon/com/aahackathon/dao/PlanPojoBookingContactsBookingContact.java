@@ -1,10 +1,17 @@
 package aahackathon.com.aahackathon.dao;
 
+import com.google.gson.annotations.SerializedName;
+
 public class PlanPojoBookingContactsBookingContact {
+    @SerializedName("OtherPhone")
     private String OtherPhone;
+    @SerializedName("WorkPhone")
     private Object WorkPhone;
+    @SerializedName("HomePhone")
     private String HomePhone;
+    @SerializedName("EmailAddress")
     private String EmailAddress;
+    @SerializedName("Name")
     private PlanPojoBookingContactsBookingContactName Name;
 
     public String getOtherPhone() {

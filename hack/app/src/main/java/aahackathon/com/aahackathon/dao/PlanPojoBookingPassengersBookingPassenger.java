@@ -1,8 +1,13 @@
 package aahackathon.com.aahackathon.dao;
 
+import com.google.gson.annotations.SerializedName;
+
 public class PlanPojoBookingPassengersBookingPassenger {
+    @SerializedName("PassengerFees")
     private Object PassengerFees;
+    @SerializedName("Infant")
     private boolean Infant;
+    @SerializedName("PaxPriceType")
     private PlanPojoBookingPassengersBookingPassengerPaxPriceType PaxPriceType;
 
     public Object getPassengerFees() {
