@@ -49,6 +49,8 @@ public class MainModel implements MainPresenter.Presenter {
                     @Override
                     public void onNext(PlanPojo planPojo) {
                         System.out.print("OnNext");
+                        mView.detailConfirmed(planPojo.getPNR());
+
                     }
                 });
 

@@ -166,12 +166,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     @Override
-    public void gotoSignUp() {
-
+    public void detailConfirmed(String pnr) {
+        Toast.makeText(this, "thanks for the booking details your PNR NO : "+pnr, Toast.LENGTH_LONG).show();
     }
 
     @Override
     public void onFinish() {
+
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
     }

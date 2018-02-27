@@ -10,7 +10,7 @@ public class MainPresenter {
 
     public interface View{
 
-        void gotoSignUp();
+        void detailConfirmed(String pnr);
         void onFinish();
     }
 
