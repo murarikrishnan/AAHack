@@ -22,6 +22,7 @@
         </activity>
         <activity android:name=".login.LoginActivity" ></activity>
         <activity android:name=".inflightscreens.InFlightScreen" ></activity>
+        <activity android:name=".egifts.EGiftsScreen" ></activity>
     </application>
 
 </manifest>

@@ -25,6 +25,7 @@ import javax.inject.Inject;
 
 import aahackathon.com.aahackathon.R;
 import aahackathon.com.aahackathon.application.MainApplicaition;
+import aahackathon.com.aahackathon.egifts.EGiftsScreen;
 import aahackathon.com.aahackathon.inflightscreens.InFlightScreen;
 import aahackathon.com.aahackathon.login.LoginActivity;
 
@@ -57,6 +58,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     startActivity(intent);
                     return true;
                 case R.id.navigation_notifications:
+                    Intent intent1 = new Intent(getApplicationContext(), EGiftsScreen.class);
+                    startActivity(intent1);
                     return true;
             }
             return false;
